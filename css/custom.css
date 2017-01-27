@@ -1,0 +1,11 @@
+header {
+	background-image: url("../images/background.jpg");
+	background-repeat: repeat-x;
+    background-position: center; 
+}
+.main {
+	min-height: 100px;
+}
+.name {
+	padding-top: 25px;
+}
