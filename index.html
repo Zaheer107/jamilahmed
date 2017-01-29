@@ -14,13 +14,13 @@
 
 		<!-- This container is for fixed size centered content, 
 		and is wrapped around the whole page content, except for footer -->
-		<div class="">
+		<div class="container-fluid main-body">
 
 			<!-- Header -->
 			<header class="">
 				<div class="main">
-					<h1 class="text-center name"><b>JAMIL AHMED</b></h1>
-					<p class="text-center">Welcome to the website of <span class="">JAMIL AHMED</span></p>
+					<h1 class="text-center main-name"><b>JAMIL AHMED</b></h1>
+					<p class="text-center welcome-name">Welcome to the website of <span class="">JAMIL AHMED</span></p>
 				</div>
 				
 				<div>
@@ -60,7 +60,7 @@
 			<!-- Content -->
 			<div class="">
 
-				<div class="">
+				<div class="col-md-8">
 					<img src="images/face.jpg" class="img-responsive" alt="JAMIL">
 					<div class="">
 						<h3><b>About JAMIL AHMED</b></h3>
@@ -72,10 +72,9 @@
 					</div>
 				</div>
 
-				<hr>
 
 				<!-- Blog entry -->
-				<div class="">
+				<div class="col-md-4">
 					<img src="images/jimi007.jpg" class="img-responsive" alt="jimi007">
 					<div class="">
 						<h3><b>SKILLS and EXPERTIES</b></h3>
@@ -89,7 +88,7 @@
 					<!-- Introduction menu -->
 					<div class="">
 						<!-- About Jamil -->
-						<div class="">
+						<div class="col-sm-12 col-md-9">
 							<img src="images/cover.jpg" class="img-responsive" alt="cover">
 							<div class="">
 								<h4><b>Jamil Ahmed</b></h4>
@@ -97,60 +96,71 @@
 							</div>
 						</div>
 
-						<hr>
-
+<!-- Labels / tags -->
+						<div class="row">
+							<div class="col-md-3">
+								<div class="">
+									<h4>Tags</h4>
+								</div>
+								<div class="">
+									<p>
+										<span class="btn btn-default btn-xs black-button">WEB DESIGN</span> <span class="btn btn-default btn-xs black-button">DEVELOPER</span>
+										<span class="btn btn-default btn-xs black-button">RESPONSIVE</span> <span class="btn btn-default btn-xs black-button">DESIGNER</span> <span class="btn btn-default btn-xs black-button">HTML5/CSS3</span>
+										<span class="btn btn-default btn-xs black-button">ADOBE CSS</span> <span class="btn btn-default btn-xs black-button">Baby</span> <span class="btn btn-default btn-xs black-button">PHP</span>
+										<span class="btn btn-default btn-xs black-button">SQL</span> <span class="btn btn-default btn-xs black-button">JQUERY</span> <span class="btn btn-default btn-xs black-button">WORDPRESS</span>
+										<span class="btn btn-default btn-xs black-button">JS</span> <span class="btn btn-default btn-xs black-button">E-COMMERSE</span>
+										<span class="btn btn-default btn-xs black-button">SEARCH ENGINE OPTIMIZATION(SEO)</span>
+									</p>
+								</div>
+							</div>
+						</div>
 						<!-- Work -->
-						<div class="">
+						
+						<div class="row">
 							<div class="">
 								<h4>Popular Designs</h4>
 							</div>
-							<ul class="">
-								<li class="w3-padding-16">
-									<img src="" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-									<span class="">Some Work</span><br>
-									<span>Blaa Blaa</span>
-								</li>
-								<li class="w3-padding-16">
-									<img src="/w3images/gondol.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-									<span class="w3-large">Some Other Work</span><br>
-									<span>Blaa Blaa</span>
-								</li> 
-								<li class="w3-padding-16">
-									<img src="/w3images/skies.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-									<span class="w3-large">Some Other Work</span><br>
-									<span>Blaa Blaa</span>
-								</li>   
-								<li class="w3-padding-16 w3-hide-medium w3-hide-small">
-									<img src="/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-									<span class="w3-large">Some Other Work</span><br>
-									<span>Blaa Blaa</span>
-								</li>  
-							</ul>
-						</div>
-
-						<hr> 
-
-						<!-- Labels / tags -->
-						<div class="">
-							<div class="">
-								<h4>Tags</h4>
-							</div>
-							<div class="w3-container w3-white">
-								<p>
-									<span class="w3-tag w3-black w3-margin-bottom">WEB DESIGN</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">SEARCH ENGINE OPTIMIZATION(SEO)	</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DEVELOPER</span>
-									<span class="w3-tag w3-light-grey w3-small w3-margin-bottom">RESPONSIVE</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DESIGNER</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">HTML5/CSS3</span>
-									<span class="w3-tag w3-light-grey w3-small w3-margin-bottom">ADOBE CSS</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">PHP</span>
-									<span class="w3-tag w3-light-grey w3-small w3-margin-bottom">SQL</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">JQUERY</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">WORDPRESS</span>
-									<span class="w3-tag w3-light-grey w3-small w3-margin-bottom">JS</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">E-COMMERSE</span>
-								</p>
+							<div class="work-list">
+								<div class="col-md-2 col-sm-3">
+									<a href="https://www.xactmind.com/" class="" target="_blank"><img src="images/xact.jpg" alt="Image" class="img-responsive img-rounded"></a>
+									<span class="">X-ACT</span><br>
+									<span>Advertisement.</span>
+								</div>
+								<div class="col-md-2 col-sm-3">
+									<a href="http://fairytalez.com/" class="" target="_blank"><img src="images/fairytales.jpg" alt="Image" class="img-responsive img-rounded"></a>
+									<span class="">Fairy Tales</span><br>
+									<span>Blogs.</span>
+								</div> 
+								<div class="col-md-2 col-sm-3">
+									<a href="http://fitcrunchbars.com/" class="" target="_blank"><img src="images/fit-crunch.jpg" alt="Image" class="img-responsive img-rounded"></a>
+									<span class="">Fit Crunch</span><br>
+									<span>Chef, Baking.</span>
+								</div>   
+								<div class="col-md-2 col-sm-3">
+									<a href="http://crossfitkaiju.com/" class="" target="_blank"><img src="images/crossfit.jpg" alt="Image" class="img-responsive img-rounded"></a>
+									<span class="">CrossFit Kaiju</span><br>
+									<span>Fitness</span>
+								</div>
+								<div class="col-md-2 col-sm-3">
+									<a href="http://quotescompanion.com/" class="" target="_blank"><img src="images/quotes.jpg" alt="Image" class="img-responsive img-rounded"></a>
+									<span class="">Quotes Comanions</span><br>
+									<span>Quotes & Sayings.</span>
+								</div>
+								<div class="col-md-2 col-sm-3">
+									<a href="http://manuals.co/" class="" target="_blank"><img src="images/manuals.jpg" alt="Image" class="img-responsive img-rounded"></a>
+									<span class="">Manual.co</span><br>
+									<span>Repair and Maintenance.</span>
+								</div>
 							</div>
 						</div>
+
+						
 				</div>
 			</div>
 		</div>
 
 		<!-- Footer -->
-		<footer class="">
+		<footer class="container-fluid">
 			<p>Powered by <a href="https://www.facebook.com/zahir107" target="_blank">engrzaheer</a></p>
 
 		</footer>

@@ -1,11 +1,52 @@
+body {
+
+}
+
+/* main body except footer */
+.main-body {
+	background: linear-gradient(to bottom, #1a75ff 0%, #ccffff 100%); /* light blue */
+}
+/* header background */
 header {
-	background-image: url("../images/background.jpg");
-	background-repeat: repeat-x;
-    background-position: center; 
+	background: url("../images/background.jpg") no-repeat center fixed; 
+    background-size: cover;
+}
+
+@media (min-width: @screen-lg-min) {
+	.main-name {
+		padding-top: 80px;
+	}
 }
 .main {
-	min-height: 100px;
+	min-height: 200px;
+	text-align: center;
 }
-.name {
+.main-name {
+	font-size: 50px;
 	padding-top: 25px;
+}
+.welcome-name {
+	margin-top: 20px;
+}
+
+/**for button in popular design catogory**/
+.black-button {
+	background-color: #000000; /*black*/
+	color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.black-button:hover {
+    background-color: #666666; /* Grey */
+    color: white;
+}
+
+.work-list {
+	
+}
+
+footer {
+	background: url("../images/f-image.jpg") no-repeat center fixed; 
+    background-size: cover;
 }
