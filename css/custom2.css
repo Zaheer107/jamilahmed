@@ -1,0 +1,64 @@
+body {
+
+}
+.navbar-default {
+	background-color: grey;
+	height: 100px;
+	color: white;
+}
+.navbar-brand {
+	padding: 2px 2px  2px 2px;
+	font-color: white;
+}
+h1 {
+	color: white;
+}
+#bs-example-navbar-collapse-1 {
+	float: right;
+}
+/* main body except footer */
+.main-body {
+	background: linear-gradient(to bottom, #1a75ff 0%, #ccffff 100%); /* light blue */
+}
+/* header background */
+header {
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    margin: 0 0 0 0;
+}
+
+.main {
+	min-height: 200px;
+	text-align: center;
+}
+.main-name {
+	font-size: 50px;
+	padding-top: 25px;
+}
+.welcome-name {
+	margin-top: 20px;
+}
+
+/**for button in popular design catogory**/
+.black-button {
+	background-color: #000000; /*black*/
+	color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.black-button:hover {
+    background-color: #666666; /* Grey */
+    color: white;
+}
+
+.work-list {
+
+}
+
+footer {
+	background: url("../images/f-image.jpg") no-repeat center fixed; 
+    background-size: cover;
+}
